@@ -29,7 +29,7 @@ Add ep.min.css file in your page's head
 
 If you wish to prevent certain emojis from being pasted by user
 
-`new epicker('#textarea', false, false '😀,🙃');`
+`new epicker('#textarea', false, false, '😀,🙃');`
 
 Or as an array
 
@@ -39,7 +39,7 @@ Or as an array
 
 To avoid useing external css file, pass true to the function to enable the inline css tag.
 
-`new epicker('#textarea', true, false, '😀,🙃');`
+`new epicker('#textarea', true, false, '');`
 
 The third parameter (false), If the targeted html element Is not TEXTAREA or INPUT and you wish to change the whole element's content instead of append it, pass another true to achieve that.
 
