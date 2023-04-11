@@ -1,0 +1,81 @@
+#ep__picker * {
+    box-sizing: border-box;
+}
+#ep__picker {
+    width: 250px;
+    max-width: 100%;
+    padding: 0.5rem;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border-radius: 8px;
+}
+#ep__picker input {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    padding: 0.3rem 0.3rem 0.3rem 1.6rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    color: #5c5c5c;
+    background-color: #fff;
+    background-clip: padding-box;
+    background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='168.07 122.14 22 22'%3E%3Cpath d='m27 24.57-5.647-5.648a8.895 8.895 0 0 0 1.522-4.984C22.875 9.01 18.867 5 13.938 5 9.01 5 5 9.01 5 13.938c0 4.929 4.01 8.938 8.938 8.938a8.887 8.887 0 0 0 4.984-1.522L24.568 27 27 24.57zm-13.062-4.445a6.194 6.194 0 0 1-6.188-6.188 6.195 6.195 0 0 1 6.188-6.188 6.195 6.195 0 0 1 6.188 6.188 6.195 6.195 0 0 1-6.188 6.188z' style='fill:%23999999' transform='translate(163.07 117.14)'/%3E%3C/svg%3E\");
+    background-position: 0.3rem;
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    border: 1px solid #f1f1f1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.4rem;
+    outline: none;
+    margin: 0.3rem 0;
+}
+#ep__picker input::placeholder {
+    color: #999999;
+}
+.ep_section_w {
+    position: relative;
+    height: 300px;
+    overflow: auto;
+}
+#ep__picker h4 {
+    z-index: 1;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5c5c5c;
+    background-color: #ffffff;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    border-bottom: solid 1px #f1f1f1;
+    position: sticky;
+    top: 0;
+}
+#ep__picker .ep_section {
+}
+#ep__picker #epi {
+    background-size: 5000% 7200%;
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    padding: 0;
+    margin: 3px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#ep__picker .ep_section:hover div:not(div:hover) {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+#ep__none {
+    color: #5c5c5c;
+    text-align: center;
+    margin-top: 5rem;
+}

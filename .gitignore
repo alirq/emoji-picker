@@ -1,0 +1,41 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package & Target Files #
+*.jar
+*.war
+*.ear
+*.db
+
+# Debug & Demo21 Output #
+*.log
+*.xml
+
+# Image Files #
+*.png
+*.jpg
+*.gif
+*.bmp
+
+# Audio Files #
+*.wav
+*.mid
+*.mp3
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+.idea/copyright/
+.idea/modules/lib/
+lib/
+out/
+tres/
+.idea/
+.gradle/
+*.propreties
+build/
+fuckGod.properties
+settings.properties
+demo/Demo4.groovy
+demo/Demo10.groovy
