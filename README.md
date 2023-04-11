@@ -1,6 +1,12 @@
 # Emoji's picker
 Simple &amp; light emojis picker. It supports over 1400 emojis.
 
+<img src="https://github.com//alirq/emoji-picker/blob/main/screenshot.png?raw=true" alt="Emoji's picker twemoji js css html github">
+
+**Demo**
+
+https://codepen.io/alirq/pen/XWxJqPO
+
 **How to use**
 
 Add ep.min.js file in your page at the bottom of the body
